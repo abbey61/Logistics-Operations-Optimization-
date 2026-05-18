@@ -1,8 +1,7 @@
 # Logistics Operations Optimization Suite
 ### TS Academy Data Analytics Capstone Project
 **Author:** Abdulfatai Onaolapo  
-**Role:** Associate Data Analyst  
-**Tools Used:** Power BI Desktop, SQL (Advanced Querying), Microsoft Excel  
+**Tools Used:** Power BI Desktop, Microsoft Excel  
 
 ---
 
