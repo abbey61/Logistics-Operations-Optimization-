@@ -1,2 +1,51 @@
-# Logistics-Operations-Optimization-
-TS Academy Data Analytics Capstone Project | Author: Abdulfatai Onaolapo | Role: Data Analyst | Tools Used: Power BI Desktop, Microsoft Excel
+# Logistics Operations Optimization Suite
+### TS Academy Data Analytics Capstone Project
+**Author:** Abdulfatai Onaolapo  
+**Role:** Associate Data Analyst  
+**Tools Used:** Power BI Desktop, SQL (Advanced Querying), Microsoft Excel  
+
+---
+
+## Executive Summary
+This repository contains the end-to-end Data Analytics Capstone Project completed for my **TS Academy Certification**. The project utilizes a complex logistics operations dataset (~85K rows) to isolate critical business bottlenecks, evaluate costly supply chain leakages, and recommend data-backed operational frameworks.
+
+While the logistics engine demonstrates phenomenal fundamental health—boasting a **65% Gross Profit Margin**—deep-seated inefficiencies are choking maximum throughput. The operation is heavily bound by a poor **On-Time Delivery (OTD) rate of 56%**, extensive vehicle idling (**598.79K total idle hours**), and a steep gap in revenue capture, realizing **$298.62M** out of a theoretical maximum potential revenue of **$538M** (leaving **44.5% of revenue unfulfilled**).
+
+---
+
+## Key Operational Metrics (KPIs)
+* **Realized Revenue:** $298.62M | **Potential Capacity Revenue:** $538M
+* **Fleet Profitability:** 65% Gross Margin
+* **Service Level Agreements (SLA):** 56% On-Time Delivery Rate (44% Delayed)
+* **Asset Friction:** 598.79K Non-Productive Idle Hours
+* **Driver Retention Metrics:** 17.3% Driver Turnover Rate (26 of 150 Terminated)
+
+---
+
+## Deep-Dive Section Insights
+
+### 1. Financial & Safety Performance
+* **Safety Spending Seasonality:** Total safety claims show high volatility throughout the fiscal cycle, spiking heavily in **May ($379K)** and **October ($318K)**, while bottoming out in **December ($106K)**. 
+* **High-Risk Operators:** Risk profiling identified specific drivers who generate substantial revenue but incur heavy liability costs. For example, driver **Richard Garcia** generated $2.56M in revenue but accumulated a massive **$50,128 in safety claims cost**, flagging a critical need for targeted coaching.
+
+### 2. Fleet & Asset Optimization
+* **The Idling Drain:** The fleet accumulated **598.79K idle hours**, stagnating the collective trip fuel efficiency to an average of **6.45 MPG**.
+* **Maintenance Sinkholes:** The baseline network maintenance downtime is **24.74 hours per vehicle**. However, extreme mechanical outliers like `TRK001080` (**1,080 hours**) and `TRK000996` (**996 hours**) are severely reducing fleet availability.
+* **Claims Segmentation:** **Equipment Damage ($741K)** and **DOT Violations ($581K)** lead the organization's incident liability metrics.
+
+### 3. Route & Facility Bottlenecks
+* **Detention Time Violations:** Long loading dock delays are the primary driver of late arrivals. The network average detention time stands at **92 minutes**. 
+* **Worst Performing Hubs:** The **Indianapolis Warehouse Hub** leads the network in driver friction with a staggering **106-minute average detention time**, followed by the **Phoenix Distribution Center (93.02 mins)**.
+* **Fixed Facility Costs:** Regional supply hubs (Kansas, Houston, Columbus) exhibit an identical, invariant maintenance overhead of **$4.3M per hub**, heavily outstripping safety costs.
+
+### 4. Customer Vertical Vulnerabilities
+* **Churn and Inactivity Risks:** While the active portfolios in **Automotive ($47M)** and **Food/Beverages ($42M)** remain stable, the **Retail vertical holds $12M in "Inactive" account status**, representing a massive churn leak that requires urgent sales intervention.
+
+---
+
+## Strategic Optimization Framework (Data-Driven Recommendations)
+
+1.  **Idle Reduction Protocols:** Implement automatic 5-minute engine-shutdown limits and equip long-haul trucks with Auxiliary Power Units (APUs) to clear out the **598.79K idle hours** and protect fuel margins.
+2.  **Enforce Warehouse Demurrage Fees:** Introduce contract clauses imposing standard detention fines ($75/hour) after 60 minutes for high-delay facilities in **Indianapolis and Phoenix** to improve the low **56% On-Time Delivery rate**.
+3.  **Predictive Asset Renewal:** Retire or completely overhaul chronic breakdown trucks (like `TRK001080`) and shift the **$4.3M localized hub budgets** from a fixed model to a predictive framework targeting **Equipment Damage ($741K)**.
+4.  **Sales Win-Back Campaigns:** Deploy account executives to target the **$12M inactive retail** and **$8M inactive automotive** accounts to narrow the $239.38M revenue capture gap.
