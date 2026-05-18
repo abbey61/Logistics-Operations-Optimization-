@@ -6,7 +6,7 @@
 ---
 
 ## Executive Summary
-This repository contains the end-to-end Data Analytics Capstone Project completed for my **TS Academy Certification**. The project utilizes a complex logistics operations dataset (~85K rows) to isolate critical business bottlenecks, evaluate costly supply chain leakages, and recommend data-backed operational frameworks.
+This repository contains the end-to-end Data Analytics Capstone Project completed for my **TS Academy Certification**. The project utilizes a complex logistics operations dataset (85K+ rows) to isolate critical business bottlenecks, evaluate costly supply chain leakages, and recommend data-backed operational frameworks.
 
 While the logistics engine demonstrates phenomenal fundamental health—boasting a **65% Gross Profit Margin**—deep-seated inefficiencies are choking maximum throughput. The operation is heavily bound by a poor **On-Time Delivery (OTD) rate of 56%**, extensive vehicle idling (**598.79K total idle hours**), and a steep gap in revenue capture, realizing **$298.62M** out of a theoretical maximum potential revenue of **$538M** (leaving **44.5% of revenue unfulfilled**).
 
