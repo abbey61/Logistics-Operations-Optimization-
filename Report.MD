@@ -1,6 +1,10 @@
 ## Executive Summary
-This repository contains the end-to-end Data Analytics Capstone Project completed for my **TS Academy Certification**. 
-The project utilizes a complex logistics operations dataset (85K+ rows) to isolate critical business bottlenecks, evaluate costly supply chain leakages, and recommend data-backed operational frameworks.
+This repository contains the end-to-end Data Analytics Capstone Project completed for my **TS Academy Certification**.
+
+My role was to act as the lead Data Analyst, responsible for cleaning, modeling, and visualizing the data to uncover trends and provide recommendations. 
+This project allowed me to apply end-to-end analytics skills — from data preparation to dashboard design, using Power BI as the primary tool.
+
+The project utilizes a complex logistics operations dataset (85K+ rows) to isolate critical business bottlenecks, evaluate costly supply chain leakages, and recommend data-backed operational frameworks. 
 
 While the logistics engine demonstrates phenomenal fundamental health—boasting a **65% Gross Profit Margin**—deep-seated inefficiencies are choking maximum throughput. 
 The operation is heavily bound by a poor **On-Time Delivery (OTD) rate of 56%**, extensive vehicle idling (**598.79K total idle hours**), 
@@ -62,7 +66,7 @@ The challenge was to transform raw, fragmented data into structured insights tha
 - Built a clean, structured dataset ready for modeling and visualization
 
 # Data Modeling & DAX Measures
-I designed a star schema with a central Fact Table (Sales & Transactions) and supporting Dimension Tables (Customers, Website, Date, Product Images). 
+I designed a star schema with a central Fact Table (Trips, Load, and Delivery Events) and supporting Dimension Tables (Customers, Trailers, Truck, Drivers, Routes, Fuel Purchases, Maintenance Records, Driver Monthly Metrics(Aggregated), Truck Utilization Metrics(Aggregated), Safety Incidents). 
 Relationships enabled seamless filtering and cross-analysis across dashboards.
 
 ## Key DAX Measures:
